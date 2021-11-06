@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo [Husky] pre-commit - Formatting files
+yarn lint-staged
+
+echo [Husky] pre-commit - Linting files
+yarn lint
+
+echo [Husky] pre-commit - Running tests
+CI=true yarn test
