@@ -1,6 +1,6 @@
 # Card Challenge
 
-This project contains a list of editable card components. All components have been built with modularity and atomicity in mind for eased testing.\
+This project contains a list of editable card components. All components have been built with modularity and atomicity in mind for eased testing.
 
 NB: No server connected; Data are currently mocked and persisted / rehydrated through Redux.
 
