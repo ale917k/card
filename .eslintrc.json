@@ -5,6 +5,8 @@
     "jest": true
   },
   "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
     "airbnb",
     "airbnb-typescript",
     "airbnb/hooks",
@@ -35,10 +37,24 @@
     // Error out inline styles
     "no-inline-styles/no-inline-styles": 2,
 
+    // Allow functional components with arrow function definition
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
+
     // Disable extraneous dependencies for development tests
     "import/no-extraneous-dependencies": [
       "error",
-      { "devDependencies": ["src/setupTests.ts", "src/reportWebVitals.ts", "**/*.test.ts{,x}"] }
-    ]
+      {
+        "devDependencies": [
+          "src/setupTests.ts",
+          "src/reportWebVitals.ts",
+          "**/*.stories.ts{,x}",
+          "**/*.test.ts{,x}"
+        ]
+      }
+    ],
+
+    // Disable unsupported rules
+    "no-unsafe-optional-chaining": "off",
+    "no-nonoctal-decimal-escape": "off"
   }
 }

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "2",
+    "title": "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "3",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "4",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "5",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "6",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "7",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "8",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "9",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  },
+  {
+    "id": "10",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "A card is a flexible and extensible content container. It includes a wide variety of content, thumbnails, video, images, subheadings, actions, and content.",
+    "media": {
+      "type": "image",
+      "src": "https://picsum.photos/500/500"
+    },
+    "createdBy": "2012-04-23T18:25:43.511Z",
+    "updatedBy": null
+  }
+]

@@ -1,16 +1,29 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
+import { ThemeProvider } from "styled-components";
 
 import * as serviceWorkerRegistration from "serviceWorkerRegistration";
 import reportWebVitals from "reportWebVitals";
 
-import App from "components/App/App";
-import GlobalStyles from "theme/globalStyles";
+import App from "components/App";
+import { store, persistor } from "redux/store";
+import theme, { GlobalStyles } from "theme";
 
 ReactDOM.render(
   <StrictMode>
-    <App />
-    <GlobalStyles />
+    <Provider store={store}>
+      <BrowserRouter>
+        <PersistGate persistor={persistor}>
+          <ThemeProvider theme={theme}>
+            <App />
+            <GlobalStyles />
+          </ThemeProvider>
+        </PersistGate>
+      </BrowserRouter>
+    </Provider>
   </StrictMode>,
   document.getElementById("root")
 );

@@ -6,40 +6,31 @@ const windowSizes = css`
   width: 100%;
 `;
 
+/**
+ * Styles applied globally to entire application.
+ */
 const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: ${theme.typography.fontFamily};
-  };
+  }
 
   html {
     ${windowSizes};
-    font-size: clamp(12px, 1vw, 16px);
+    font-size: clamp(14px, 1vw, 16px);
     font-weight: ${theme.typography.fontWeightLight};
     scroll-behavior: smooth;
-  };
+  }
 
   body {
     ${windowSizes};
-  };
 
-  h1 {
-    ${theme.typography.h1};
-  };
-
-  h2 {
-    ${theme.typography.h2};
-  };
-
-  h3 {
-    ${theme.typography.h3};
-  };
-
-  h4 {
-    ${theme.typography.h4};
-  };
+    &.modal-open {
+      overflow: hidden;
+    }
+  }
 
   a {
     position: relative;
